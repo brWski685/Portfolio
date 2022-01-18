@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    font-family: 'Enriqueta', arial, serif;
+    position: relative;
+}
+.header{
+    height: 80px;
+    display: flex;
+}
+.title{
+    font-size: 60px;
+    margin-top: 5px;
+}
+.button {
+    font-size: 25px;
+    background-color: white;
+    border: solid 0px;
+    color: rgba(0, 0, 0, 0.658);
+    cursor: pointer;
+}
+.container1 {
+    border: solid 0px ;
+}
+
+button:hover{
+    color: black;
+}
+.buttonClass {
+    display: flex;
+    position:absolute;
+    right: 20px;
+    top: 10px;
+}
